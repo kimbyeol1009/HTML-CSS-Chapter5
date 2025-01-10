@@ -88,3 +88,11 @@
     bottom: 0;
     left: 0;
   }
+  .container {
+    border: 3px solid gray;
+    position: relative; /* .box-big의 기준점을 .container로 설정 */
+    width: 600px;
+    height: 600px;
+  }
+  .b{align-self: center;}
+.c{align-self:flex-end;} 
