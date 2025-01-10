@@ -1,0 +1,90 @@
+.mother{
+    border: 3px solid gray;
+    height : 500px;
+    width : 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.mother-mother{
+    display: flex;
+}
+
+.mother2{
+    border: 3px solid gray;
+    display: flex;
+    height : 500px;
+    width : 600px;
+    flex-direction: column;
+    
+}
+.children{
+    background-color: black;
+    color : white;
+    width : 100px;
+    height : 100px;
+}
+.mother3{
+    border: 3px solid gray;
+    height : 500px;
+    width : 600px;
+    display: flex;
+    justify-content: center;
+}
+.children1{
+    background-color: black;
+    color : white;
+    width : 150px;
+    height : 150px;
+    position : absolute;
+    left: 75px;
+    top: 75px;
+}
+.children2{
+    background-color: rgb(59, 59, 59);
+    color : white;
+    width : 300px;
+    height : 300px;
+    position : relative;
+    margin-top: 20px;
+}
+.children4{
+    background-color: black;
+    color : white;
+    width : 100px;
+    height : 100px;
+}
+.children3{
+    background-color: rgb(71, 71, 71);
+    color : white;
+    width : 100px;
+    height : 100px;
+    position: relative;
+    left:50px;
+    bottom : 50px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+  }
+  .box-big {
+    width: 400px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right:0px;
+    bottom:0px;
+  }
+  .box-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .box-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
